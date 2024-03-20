@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-dial {
+  width: 500px;
+  height: 500px;
+  border: 20px solid rgb(20, 25, 166);
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(210, 14, 33);
+  border-radius: 50%;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+}
+
+.hour {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+}
+
+.hour-1 {
+  top: 50px;
+  right: 115px;
+}
+.hour-2 {
+  top: 125px;
+  right: 45px;
+}
+.hour-3 {
+  top: 235px;
+  right: 10px;
+}
+.hour-4 {
+  top: 345px;
+  right: 45px;
+}
+.hour-5 {
+  top: 430px;
+  right: 130px;
+}
+.hour-6 {
+  top: 450px;
+  left: 240px;
+}
+.hour-7 {
+  top: 430px;
+  left: 130px;
+}
+.hour-8 {
+  top: 345px;
+  left: 45px;
+}
+.hour-9 {
+  top: 235px;
+  left: 10px;
+}
+.hour-10 {
+  top: 125px;
+  left: 45px;
+}
+.hour-11 {
+  top: 40px;
+  left: 130px;
+}
+.hour-12 {
+  top: 10px;
+  left: 235px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  /* color: rgb(203, 119, 9); */
+  color: green;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+}
+
+.min-hand-wrapper {
+  width: 400px;
+  height: 400px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
+}
+
+.min-hand {
+  position: relative;
+}
+
+.min-hand .hand {
+  width: 4px;
+  height: 200px;
+  /* background-color: rgb(223, 99, 10); */
+  background-color: black;
+  position: absolute;
+  left: 198px;
+}
+
+.min-hand .arrow {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: rgb(223, 99, 10); */
+  color: rgb(235, 8, 8);
+  transform: rotate(180deg);
+  position: absolute;
+  left: 191px;
+  top: -7px;
+}
+
+.hour-hand-wrapper {
+  width: 300px;
+  height: 300px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.hour-hand {
+  position: relative;
+}
+
+.hour-hand .hand {
+  width: 4px;
+  height: 150px;
+  /* background-color: rgb(223, 99, 10); */
+  background-color: black;
+
+  position: absolute;
+  left: 148px;
+}
+
+.hour-hand .arrow {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: rgb(223, 99, 10); */
+  color: rgb(233, 12, 12);
+  transform: rotate(180deg);
+  position: absolute;
+  left: 141px;
+  top: -7px;
+}
+
+.sec-hand-wrapper {
+  width: 350px;
+  height: 350px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  border-radius: 50%;
+}
+
+.sec-hand {
+  position: relative;
+}
+
+.sec-hand .hand {
+  width: 2px;
+  height: 175px;
+  /* background-color: rgb(223, 99, 10); */
+  background-color: black;
+
+  position: absolute;
+  left: 174px;
+  /* background-color: #fff; */
+}
+
+#actual_time {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 30px; /* Adjust as needed */
+  color: #333; /* Adjust color as needed */
+}
